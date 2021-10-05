@@ -1,0 +1,39 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "graph-toolkit-demo-client-side-solution",
+        "id": "57880f45-a3f1-4f7b-81d7-02a5c40892e9",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "isDomainIsolated": false,
+        "skipFeatureDeployment": true,
+        "webApiPermissionRequests": [
+            {
+                "resource": "Microsoft Graph",
+                "scope": "User.Read.All"
+            },
+            {
+                "resource": "Microsoft Graph",
+                "scope": "Group.Read.All"
+            },
+            {
+                "resource": "Microsoft Graph",
+                "scope": "User.ReadBasic.All"
+            },
+            {
+                "resource": "Microsoft Graph",
+                "scope": "People.Read"
+            }
+        ],
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": ""
+        }
+    },
+    "paths": {
+        "zippedPackage": "solution/graph-toolkit-demo.sppkg"
+    }
+}
