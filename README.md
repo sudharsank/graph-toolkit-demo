@@ -2,9 +2,7 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
+Please navigate to [Knowledge Share](https://spknowledge.com/2021/10/05/spfx-msgraph-toolkit-peoplepicker-control/) for detailed explanation.
 
 ## Used SharePoint Framework Version
 
