@@ -34,3 +34,59 @@
         }
     }
 }
+.filesList {
+    p {
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .fileInfo {
+        color: black;
+        div {
+            word-break: break-word;
+        }
+        div > p {
+            margin: 3px 0px;
+            font-size: 13px;
+            display: contents;
+        }
+    }
+    .customFileList {
+        mgt-file-list {
+            --font-family: 'Segoe UI';
+            --font-size: 14px;
+          
+            --file-list-background-color: #ffffff;
+            --file-list-border: 1px solid "[theme:themePrimary]";
+            --file-list-box-shadow: none;
+            --file-list-padding: 4px 0;
+            --file-list-margin: 0;
+          
+            --file-item-background-color--hover: "[theme:themeTertiary]";
+            --file-item-background-color--active: rgba(0, 0, 0, 0.05);
+            --file-item-border-radius: 2px;
+            --file-item-margin: 0 4px;
+          
+            --file-item-border-top: none;            
+            --file-item-border-left: none;
+            --file-item-border-right: none;
+            --file-item-border-bottom: none;
+          
+            --show-more-button-background-color: "[theme:themeLighter]";
+            --show-more-button-background-color--hover: "[theme:themeLight]";
+            --show-more-button-font-size: 12px;
+            --show-more-button-padding: 10px;
+            --show-more-button-border-bottom-right-radius: 4px;
+            --show-more-button-border-bottom-left-radius: 4px;
+          
+            --file-upload-border: 4px dotted #ffbdc3;
+            --file-upload-background-color: rgba(255, 0, 0, 0.1);
+            --file-upload-button-float: left;
+            --file-upload-button-color: "[theme:themeWhite]";
+            --file-upload-button-background-color: "[theme:themeSecondary]";
+            --file-upload-dialog-content-background-color: #ffe7c7;
+            --file-upload-dialog-primarybutton-background-color: #ffe7c7;
+            --file-upload-dialog-primarybutton-color: #323130;
+          }
+    }
+}
