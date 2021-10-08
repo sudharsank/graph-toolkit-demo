@@ -10,19 +10,19 @@
         "webApiPermissionRequests": [
             {
                 "resource": "Microsoft Graph",
-                "scope": "User.Read.All"
+                "scope": "Files.ReadWrite.All"
             },
             {
                 "resource": "Microsoft Graph",
-                "scope": "Group.Read.All"
+                "scope": "Files.Read.All"
             },
             {
                 "resource": "Microsoft Graph",
-                "scope": "User.ReadBasic.All"
+                "scope": "Sites.ReadWrite.All"
             },
             {
                 "resource": "Microsoft Graph",
-                "scope": "People.Read"
+                "scope": "Sites.Read.All"
             }
         ],
         "developer": {
