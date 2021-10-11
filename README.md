@@ -5,6 +5,7 @@
 This sample project will walk you through the implementation of Microsoft Graph ToolKit in SPFx. 
 - [SPFx-MSGraph Toolkit using @microsoft/mgt-spfx & @microsoft/mgt-react](https://spknowledge.com/2021/09/30/spfx-msgraph-toolkit-using-microsoft-mgt-spfx-microsoft-mgt-react/)
 - [SPFx-MSGraph Toolkit PeoplePicker Control](https://spknowledge.com/2021/10/05/spfx-msgraph-toolkit-peoplepicker-control/)
+- [SPFx-MSGraph Toolkit Get Control](https://spknowledge.com/2021/10/11/spfx-msgraph-toolkit-get-control/)
 
 ## Used SharePoint Framework Version
 
